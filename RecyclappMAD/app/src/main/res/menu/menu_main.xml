@@ -2,10 +2,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
 
+
     <item
         android:id="@+id/action_buscar"
-        android:title="@string/action_search"
-        android:orderInCategory="200"
+        android:title="B"
+        android:orderInCategory="100"
         app:showAsAction="always"
-        app:actionViewClass="android.support.v7.widget.SearchView" />
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+
+
+    <!--<item-->
+        <!--android:id="@+id/action_buscar"-->
+        <!--android:title=""-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="collapseActionView|always"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+        <!--app:actionLayout="@layout/action_switch"-->
+        <!--/>-->
+
+    <item
+        android:id="@+id/action_switch"
+        android:title="S"
+        app:actionLayout="@layout/action_switch"
+        app:showAsAction="always"
+        android:visible="false"
+        />
+
+    <!--<item android:id="@+id/action_settings" android:title="@string/action_settings"-->
+        <!--android:orderInCategory="200" app:showAsAction="collapseActionView|ifRoom" />-->
 </menu>
