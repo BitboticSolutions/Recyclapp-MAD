@@ -6,4 +6,12 @@
     <string name="action_search">Buscar...</string>
     <string name="search_hint">Busque aquí</string>
 
+    <string-array name="options_array">
+        <item>Puntos móviles</item>
+        <item>Puntos fijos</item>
+    </string-array>
+
+
+
+
 </resources>
